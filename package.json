@@ -1,0 +1,25 @@
+{
+  "name": "lets-encrypt-api-example",
+  "version": "1.0.0",
+  "description": "An example of making requests to the Let's Encrypt API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carterbancroft/lets-encrypt-api-example.git"
+  },
+  "author": "Carter Bancroft",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/carterbancroft/lets-encrypt-api-example/issues"
+  },
+  "homepage": "https://github.com/carterbancroft/lets-encrypt-api-example#readme",
+  "dependencies": {
+    "@root/keypairs": "^0.9.0",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.8"
+  }
+}
