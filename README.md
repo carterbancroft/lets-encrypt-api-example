@@ -7,6 +7,12 @@ here's an example to get you started.
 I've also written a [companion article](https://carterbancroft.com/the-mysterious-lets-encrypt-api/)
 for this repo.
 
+I also need to acknowledge the one real post I could find on this subject.
+[This article](https://devhub.io/repos/alexpeattie-letsencrypt-fromscratch) from
+Alex Peattie. It was written in 2017 and is outdated at this point but it was
+still so valuable in helping me build a mental model around how ACME works. You
+should give it a read.
+
 ## What This Code Does
 This project simply makes a signed request to the Let's Encrypt v2 staging API
 to create a new account using a programmatically generated RSA keypair.
